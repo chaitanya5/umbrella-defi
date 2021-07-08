@@ -1,0 +1,29 @@
+{
+  "name": "umbrella-defi",
+  "version": "1.0.0",
+  "description": "A defi project based on Umbrella network's oracles",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test test/defipooltoken-test.js"
+  },
+  "keywords": [],
+  "author": "Rout Chaitanya",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@remix-project/remixd": "^0.4.1",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.0",
+    "hardhat": "^2.4.1",
+    "mocha": "^9.0.1"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.1.7",
+    "@openzeppelin/contracts": "^3.2.0-solc-0.7",
+    "@umb-network/toolbox": "~3.0.0"
+  }
+}
